@@ -1,0 +1,62 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Links */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Card Sections - Demonstrating the Box Model */
+.card {
+    background-color: white;
+    margin: 20px auto;       /* Outer spacing (margin) */
+    padding: 15px;           /* Inner spacing (padding) */
+    border: 2px solid #ccc;  /* Border */
+    max-width: 500px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Button Styling */
+.styled-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.styled-btn:hover {
+    background-color: #357ab7;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
